@@ -1,0 +1,14 @@
+@import "./variables";
+
+// base style
+@import "./components/_base";
+
+//
+// components
+//
+@import "./components/page";
+@import "./components/navbar";
+@import "./components/searchbar";
+@import "./components//dataresult";
+@import "./components/jobdetail";
+

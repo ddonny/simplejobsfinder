@@ -1,0 +1,42 @@
+.data-result-layout{
+    border: solid 7px #ECECEC;
+    margin: 10px 5px 5px 5px;
+    background: #FFF;
+    .header-data-result{
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        color: #2F4453;
+        margin: 15px 20px;
+    }
+    .listitem-dataresult{
+        cursor: pointer;
+    }
+    .ant-list-item-meta{
+        margin-left: 20px;
+        .fulltime{
+            color: #4C982E;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+        }
+        .ant-list-item-meta-title {
+            color: #3E80BA;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+        }
+    }
+    .content-right {
+        max-width: 200px;
+        word-break: break-word;
+        min-width: 200px;
+        text-align: right;
+        margin-right: 20px;
+        .city{
+            color: #8C8C8C;
+        }
+        .created_at{
+            color: #7E7E7E;
+        }
+    }
+}

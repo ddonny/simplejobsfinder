@@ -1,0 +1,50 @@
+$main-padding: 9rem 3.75rem 11rem;
+
+.page-login {
+  text-align: center;
+  color: #fff;
+  &::after {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+  }
+  .page-content {
+    display: inline-block;
+    padding: 1.875rem;
+    vertical-align: middle;
+  }
+  .brand {
+    margin-bottom: 1.25rem;
+
+    &-text {
+      color: inherit;
+      font-size: 1.125rem;
+      font-weight: normal;
+    }
+  }
+  .form {
+    margin: 1.875rem 0;
+  }
+  .login-form-forgot {
+    float: right;
+  }
+  .btn-login {
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+  }
+  .my-facebook-button-class {
+    background-color: #4267B2;
+    line-height: 2;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 10px;
+    i {
+      padding: 0 5px;
+    }
+ }
+}

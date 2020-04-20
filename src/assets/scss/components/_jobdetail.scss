@@ -1,0 +1,74 @@
+.jobdetail-page{
+    .navigation-wrapper{
+        margin-top: 10px;
+        display: flex;
+        .back-text{
+            color: #3E80BA;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            margin-top: 2px;
+            cursor: pointer;
+        }
+        .back-icon {
+            font-size: 35px;
+            cursor: pointer;
+        }
+    }
+    .jobdetail-result{
+        border: solid 7px #ECECEC;
+        margin: 10px 5px 5px 5px;
+        background: #FFF;
+        min-height: 100vh;
+        padding: 0px 20px;
+        .breadcrumb {
+            margin: 20px 0;
+        }
+        .description {
+            padding-right: 20px;
+        }
+        .jobTitle{
+            font-family: 'Roboto', sans-serif;
+            color: #444;
+            font-size: 26px;
+            margin: 0 0;
+            font-weight: 900;
+        }
+        
+        .how-to-apply-box{
+            border: solid 7px #EBEDE0;
+            background: #FFFEF1;
+            padding: 10px 10px;
+            .how-to-apply-content {
+                word-break: break-word;
+            }
+            .ant-divider-horizontal{
+                margin: 10px 0 !important;
+            }
+            .title{
+                font-family: 'Roboto', sans-serif;
+                color: #444;
+                font-weight: bold;
+                font-size: 18px;
+            }
+        }
+        .company-info-box{
+            border: solid 7px #E2E2E2;
+            background: #FAFAFA;
+            padding: 10px 10px;
+            margin: 0 0 10px 0;
+            .ant-divider-horizontal{
+                margin: 10px 0 !important;
+            }
+            .company-url {
+                color: #0E79D7;
+                text-decoration: underline;
+                font-size: 15px;
+            }
+            img.company-logo {
+                object-fit: contain;
+                width: 100%;
+            }
+        }
+    }
+}
