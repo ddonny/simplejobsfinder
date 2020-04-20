@@ -22,7 +22,7 @@ After cloned, you might need to install package dependencies.
 yarn install
 ```
 
-and wait until finished then type below to start on local. if no browser popup. then you could browse http://localhost:3000/
+and wait until finished then type below to start on local. if no browser popup. then you could browse http://localhost:4002/
 
 ```bash
 yarn start
