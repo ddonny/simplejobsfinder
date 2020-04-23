@@ -12,10 +12,15 @@ export const SearchBar = props => {
   useEffect(() => {
   }, []);
   const dispatch = useDispatch();
-  const onFinish = values => {
-    // console.log('Finish:', values);
-    dispatch(actions.addSearchParam(values))
+  const onFinish = e => {
+    console.log('Finish:', e);
+    dispatch(actions.addSearchParam(e))
   };
+  const onSubmit = e => {
+    e.preventDefault();
+    console.log('Finish:', form);
+    dispatch(actions.addSearchParam(e))
+  }
   
   return (
     // <Layout>
@@ -25,7 +30,6 @@ export const SearchBar = props => {
           className="searchbar-form"
           initialValues={{ full_time: false }}
           onFinish={onFinish}
-          onSubmitCapture={onFinish}
         >
           <Form.Item
             name="description"

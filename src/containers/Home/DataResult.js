@@ -34,16 +34,15 @@ export const DataResult = props => {
     }
   }, [isLoading])
   useEffect(() => {
-    setThereIsParam(false)
-    
+    // setThereIsParam(false)
+    console.log('@@@searchParam', searchParam)
     if (searchParam.description != "" || searchParam.location != "") {
       setThereIsParam(true)
-    }
-    if (thereIsParam) {
       let param = Object.assign({}, searchParam, {page: pager}, {search: searchParam.description});
       const withParam = queryString.stringify(param);
       dispatch(actions.searchJobsWithPagingParam(withParam))
     } else {
+      console.log('no')
       dispatch(actions.searchJobsAll());
     }
   }, [searchParam]);
